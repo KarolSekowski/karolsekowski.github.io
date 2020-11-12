@@ -1,5 +1,5 @@
 .hero{
-    padding: 64px 16px 0;
+    padding: 64px 16px 88px;
 
     &__contact{
        
@@ -7,11 +7,12 @@
         color:white;
         background: $lightBlue;
         display: inline-block;
+        align-items: center;
         padding: 4px 24px;
         font-weight: bold;
         font-size: 20px;
         line-height: 40px;
-       text-decoration: none;
+        text-decoration: none;
         
     }
 
