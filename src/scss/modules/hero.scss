@@ -7,6 +7,7 @@
     }
     @media (min-width: $desktop){
         max-width: 100%;
+        padding-bottom: 176px;
 
     }
     &__bubble{
@@ -98,6 +99,7 @@
             width: 178px;
             height: 178px;
             border: 24px solid #F6F9FD;
+
         }
     }
 
@@ -106,6 +108,9 @@
         align-items: center;
         justify-content: center;
         position: relative;
+        @media (min-width: $desktop){
+            margin-bottom: 48px;
+        }
     }
 
     &__link{
@@ -123,6 +128,7 @@
         @media (min-width: $desktop){
             font-size: 20px;
             line-height: 40px;
+            margin-bottom: 68px;
         }
     }
 

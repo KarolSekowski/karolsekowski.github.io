@@ -1,12 +1,23 @@
 .projects{
     padding: 64px 16px 88px;
+    @media (min-width: $desktop){
+        padding: 64px 16px 176px;
+    }
     
     &__description{
         font-weight: 300;
         font-size: 16px;
         line-height: 32px;
         text-align: center;
-        margin-bottom: 46px;
+        margin-bottom: 48px;
+    
+        @media (min-width: $desktop){
+            max-width: 786px;
+            margin: 0 auto 46px;
+            font-size: 20px;
+            line-height: 40px;
+            margin-bottom: 128px;
+        }
     }
 
     &__header{
@@ -15,8 +26,13 @@
         line-height: 48px;
         color:$textDark;
         text-align: center;
+
+        @media (min-width: $desktop){
+            font-size: 48px;
+            line-height: 56px;
+            margin-bottom: 128px;
+        }
     }
-   
 }
 .project{
     box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.25);
@@ -29,6 +45,11 @@
     font-size:13px;
     font-weight:normal;
 
+    @media (min-width: $desktop){
+        font-size: 16px;
+        line-height: 24px;
+        }
+
     &__circle{
         display:block;
         width:8px;
@@ -39,11 +60,22 @@
     }
     &__content{
         padding: 24px 16px;
+       
+        @media (min-width: $desktop){
+            padding:24px 48px 58px;
+        }
     }
     &__grid{
         display:grid;
         grid-template-columns: 102px 1fr;
         column-gap: 8px;
+        margin: 0 0 8px 0;
+        @media (min-width: $desktop){
+            grid-template-columns: 116px 1fr;
+        }
+        &--description {
+            margin-bottom: 24px;
+        }
     }
     &__label{
         display:block;
@@ -60,6 +92,11 @@
         font-weight:normal;
         font-weight: bold;
         color:#ffff;
+        margin-top: 24px;
+        @media (min-width: $desktop){
+            font-size: 16px;
+            line-height: 24px;
+        }
     }
     &__window{
         height:40px;
@@ -67,6 +104,7 @@
         display: flex;
         align-items:center;
         padding: 0 0 0 16px;
+        
         
     
     }
@@ -77,7 +115,7 @@
     row-gap: 24px;
     @media(min-width: $tablet){
         grid-template-columns: 1fr 1fr;
-        max-width: 1000px;
+        max-width: 1184px;
         margin: 0 auto;
     }
 }
