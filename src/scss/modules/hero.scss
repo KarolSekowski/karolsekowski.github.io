@@ -5,7 +5,10 @@
     max-width: 768px;
     margin: 0 auto;
     }
+    @media (min-width: $desktop){
+        max-width: 100%;
 
+    }
     &__bubble{
         position: absolute;
         left: calc(50% + 90px);
@@ -26,11 +29,32 @@
 
     &__description{
         text-align: center;
+        @media (min-width: $desktop){
+            max-width: 786px;
+            margin: 0 auto;
+            position: relative;
+            &::before, &::after {
+                width: 83px;
+                height: 255px;
+                content:'';
+                display:block;
+                position: absolute;
+                top: 0;
+            }
+            &::before{
+                background: url('../assets/img/{.svg');
+                right:100%;
+            }
+            &::after{
+                background: url('../assets/img/}.svg');
+                left:100%;
+            }
+        }
     }
 
     &__header{
-        font-size:26px;
-        line-height:32px;
+        font-size: 26px;
+        line-height: 32px;
         text-align: center;
         color:$textDark;
         @media (min-width: $desktop){
@@ -42,20 +66,20 @@
     &__hello{
             display: none;
             @media (min-width: $desktop){
-                display:block;
+                display: block;
                 color:#ffff;
-                background:$blue;
+                background: $blue;
                 padding:  16px 19px;
-                border-radius:16px;
+                border-radius: 16px;
                 font-weight: bold;
                 font-size: 32px;
                 position: relative;
                 &:after{
                     content: "";
                     position: absolute;
-                    top:100%;
+                    top: 100%;
                     left: 32px;
-                    display:block;
+                    display: block;
                     width: 18px;
                     height: 23px;
                     background: url('../assets/img/speech.svg');
@@ -68,7 +92,7 @@
         width: 96px;
         height: 96px;
         border-radius: 50%;
-        border:16px solid #F6F9FD;
+        border: 16px solid #F6F9FD;
 
         @media (min-width: $desktop){
             width: 178px;
@@ -78,32 +102,33 @@
     }
 
     &__image-container{
-        display:flex;
-        align-items:center;
+        display: flex;
+        align-items: center;
         justify-content: center;
-        position:relative;
+        position: relative;
     }
 
     &__link{
         font-weight: bold;
-        color:$lightBlue;
+        color: $lightBlue;
         text-decoration: none;    
     }
   
       &__paragraph{
-        font-size:16px;
-        font-weight:300;
-        line-height:32px;
+        font-size: 16px;
+        font-weight: 300;
+        line-height: 32px;
         text-align: center;
         margin-bottom: 48px;
         @media (min-width: $desktop){
-            font-size: 20px:
+            font-size: 20px;
             line-height: 40px;
         }
     }
 
     &__special{
-        color:$blue;
+        color: $blue;
+        white-space: nowrap;
     }
 
     
