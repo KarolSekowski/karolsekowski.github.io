@@ -22,7 +22,7 @@
           <section class="hero">
             <div class="hero__image-container">
               <img src="../assets/img/karol.jpg" class="hero__image"  alt="Karol S photo"/>
-              <span class="hero__bubble"><span class="hero__hello"> Hi There! ✋</span> </span>
+              <span class="hero__bubble"><span class="hero__hello"> Hi There! <span class="hand">✋</span> </span></span>
             </div>
             <div class = "hero__description">
               <h1 class = "hero__header">My name is Karol Sękowski and I'm an aspiring <span class="hero__special"> Frontend developer</span></h1>
@@ -82,115 +82,7 @@
           <section class="projects" id="projects">
             <h2 class="projects__header">Recent Projects</h2>
             <p class="projects__description">I started my frontend developer path in 2003. Since then, I’ve built some projects. Here’s the list of the things I’ve done so far.</p>
-            <div class="projects-grid">
-              <article class="project">
-                <div class="project__window">
-                  <span class="project__circle"></span>
-                  <span class="project__circle"></span>
-                  <span class="project__circle"></span>
-                  </div>
-                  <div class="project__content">
-                      <img src="../assets/img/Github_Icon.svg" alt="">
-                <h3 class="project__grid project__title">
-                  <span class="project__label">project:</span>
-                  <span>podlaski git</span>
-                </h3>
-                <p class="project__grid project__grid--description">
-                  <span class="project__label">description:</span>
-                  <span>podlaskie aliasy dla gotowych komend</span>
-                </p>
-                <p class="project__grid">
-                  <span class="project__label">demo:</span>
-                  <span>&lt;<a class="project__link" href="#" title="click to forward">see here</a>&gt;</span>
-                </p>
-                <p class="project__grid">
-                  <span class="project__label">github:</span>
-                  <span>&lt;<a class="project__link" href="#" title="click to see code">source code</a>&gt;</span>
-                </p>
-              </div>
-            
-              </article>
-              <article class="project">
-                <div class="project__window">
-                  <span class="project__circle"></span>
-                  <span class="project__circle"></span>
-                  <span class="project__circle"></span>
-                  </div>
-                  <div class="project__content">
-                      <img src="../assets/img/Github_Icon.svg" alt="">
-                <h3 class="project__grid project__title">
-                  <span class="project__label">project:</span>
-                  <span>podlaski git</span>
-                </h3>
-                <p class="project__grid project__grid--description" >
-                  <span class="project__label">description:</span>
-                  <span>podlaskie aliasy dla gotowych komend</span>
-                </p>
-                <p class="project__grid">
-                  <span class="project__label">demo:</span>
-                  <span>&lt;<a class="project__link" href="#" title="click to forward">see here</a>&gt;</span>
-                </p>
-                <p class="project__grid">
-                  <span class="project__label">github:</span>
-                  <span>&lt;<a class="project__link" href="#" title="click to see code">source code</a>&gt;</span>
-                </p>
-              </div>
-            
-              </article>
-              <article class="project">
-                <div class="project__window">
-                  <span class="project__circle"></span>
-                  <span class="project__circle"></span>
-                  <span class="project__circle"></span>
-                  </div>
-                  <div class="project__content">
-                      <img src="../assets/img/Github_Icon.svg" alt="">
-                <h3 class="project__grid project__title">
-                  <span class="project__label">project:</span>
-                  <span>podlaski git</span>
-                </h3>
-                <p class="project__grid project__grid--description">
-                  <span class="project__label">description:</span>
-                  <span>podlaskie aliasy dla gotowych komend</span>
-                </p>
-                <p class="project__grid">
-                  <span class="project__label">demo:</span>
-                  <span>&lt;<a class="project__link" href="#" title="click to forward">see here</a>&gt;</span>
-                </p>
-                <p class="project__grid">
-                  <span class="project__label">github:</span>
-                  <span>&lt;<a class="project__link" href="#" title="click to see code">source code</a>&gt;</span>
-                </p>
-              </div>
-            
-              </article>
-              <article class="project">
-                <div class="project__window">
-                  <span class="project__circle"></span>
-                  <span class="project__circle"></span>
-                  <span class="project__circle"></span>
-                  </div>
-                  <div class="project__content">
-                      <img src="../assets/img/Github_Icon.svg" alt="">
-                <h3 class="project__grid project__title">
-                  <span class="project__label">project:</span>
-                  <span>podlaski git</span>
-                </h3>
-                <p class="project__grid project__grid--description">
-                  <span class="project__label">description:</span>
-                  <span>podlaskie aliasy dla gotowych komend</span>
-                </p>
-                <p class="project__grid">
-                  <span class="project__label">demo:</span>
-                  <span>&lt;<a class="project__link" href="#" title="click to forward">see here</a>&gt;</span>
-                </p>
-                <p class="project__grid">
-                  <span class="project__label">github:</span>
-                  <span>&lt;<a class="project__link" href="#" title="click to see code">source code</a>&gt;</span>
-                </p>
-              </div>
-            
-              </article>
+            <div class="projects-grid projects-grid--js">
             </div>
           </section>
           <section class="contact" id="contact">
@@ -199,16 +91,31 @@
             <div class="contact__links">
             <ul class="socials">
               <li class="socials__item">
-                <a class="socials__links"  href="https://github.com/karolsekowski">
-                  <img class="socials__icon" src="../assets/img/gitcat.svg" alt="Karol Sękowski's Github"></a>
+                <a class="socials__links" 
+                target="_blank"  
+                href="https://github.com/karolsekowski">
+                  <img class="socials__icon" 
+                  src="../assets/img/gitcat.svg" 
+                  alt="Karol Sękowski's Github"
+                  rel="noopener noreferrer"></a>
               </li>
               <li class="socials__item">
-                <a class="socials__links" href="https://instagram.com/karolsekowski">
-                  <img src="../assets/img/instagram.svg" class="socials__icon" alt="Karol Sękowski's Instagram"></a>
+                <a class="socials__links" 
+                target="_blank" 
+                href="https://instagram.com/karolsekowski">
+                  <img src="../assets/img/instagram.svg" 
+                  class="socials__icon" 
+                  alt="Karol Sękowski's Instagram"
+                  rel="noopener noreferrer"></a>
               </li>
               <li class="socials__item">
-                <a class="socials__links" href="https://facebook.com/karolsekowski">
-                  <img class="socials__icon" src="../assets/img/fb.svg" alt="Karol Sękowski's Facebook"></a>
+                <a class="socials__links" 
+                target="_blank" 
+                href="https://facebook.com/karolsekowski">
+                  <img class="socials__icon" 
+                  src="../assets/img/fb.svg" 
+                  alt="Karol Sękowski's Facebook"
+                  rel="noopener noreferrer"></a>
               </li>
             </ul>
             <a class="contact__mail" href="mailto:sekowskikarol@hotmail.com">sekowskikarol@hotmail.com</a>
