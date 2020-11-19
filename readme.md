@@ -1,4 +1,4 @@
-![cover](https://karolsekowski.github.io/og-ks.png)
+![cover](https://karolsekowski.github.io/og.png)
 
 # KAROL SEKOWSKI - JUNIOR FRONTEND DEVELOPER
 
