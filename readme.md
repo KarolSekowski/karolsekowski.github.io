@@ -1,13 +1,13 @@
 ![cover](https://github.com/KarolSekowski/karolsekowski.github.io/blob/source/public/og.png?raw=true)
 
-# KAROL SEKOWSKI - JUNIOR FRONTEND DEVELOPER
+# KAROL SEKOWSKI - JUNIOR PHP DEVELOPER
 
 My simple portfolio website
 
 ## TOOLS
 
 - WTF Webpack starterkit
-- HTML + SCSS + JS
+- HTML/PHP + SCSS + JS
 - Github API
 
 ## Available scripts
